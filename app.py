@@ -2,7 +2,7 @@ from flask import Flask,render_template,request
 import pyshorteners
 
 app = Flask(__name__)
-app.secret_key = 
+app.secret_key = "#Enter your own secret_key"
 
 
 class URLShortener:
